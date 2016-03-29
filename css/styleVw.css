@@ -1,0 +1,174 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+}
+
+.container {
+    width: 88.5vw;
+    margin: 0 auto;
+}
+
+.content {
+    padding-right: 6.75vw;
+    padding-left: 6.75vw;
+}
+
+header {
+    position: relative;
+    height: 2.5vw;
+    margin-top: 5.83vw;
+    margin-bottom: 5.75vw;
+}
+
+header .logo {
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-family: 'Inconsolata';
+    font-size: 2.5vw;
+    letter-spacing: 0.58vw;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav {
+    position: absolute;
+    top: 0.67vw;
+    right: 0;
+}
+
+header nav a {
+    margin-right: 8.42vw;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 1.17vw;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+.entry .poster {
+    width: 88.5vw;
+    height: 42.42vw;
+}
+
+.entry .poster img {
+    width: 100%;
+}
+
+.entry .content {
+    padding-top: 7.92vw;
+}
+
+.entry .category span {
+    color: #b4ad9e;
+    font-family: 'Ubuntu';
+    font-size: 1.17vw;
+    text-transform: uppercase;
+}
+
+.entry h1 {
+    display: inline-block;
+    margin-top: 1.92vw;
+    margin-bottom: 2.67vw;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 2.5vw;
+}
+
+.entry p {
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 1.17vw;
+    line-height: 2vw;
+}
+
+.entry .comment {
+    display: inline-block;
+    margin-top: 3.75vw;
+    color: #b4ad9e;
+    font-family: 'Ubuntu';
+    font-size: 1.17vw;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11.08vw;
+    margin-bottom: 9.92vw;
+}
+
+.news article {
+    width: 35vw;
+    margin-bottom: 10.83vw;
+}
+
+.news article:nth-child(odd) {
+    margin-right: 5vw;
+}
+
+.news article:nth-last-child(3),
+.news article:nth-last-child(2) {
+    margin-bottom: 7.92vw;
+}
+
+.news .poster {
+    width: 35vw;
+    height: 23.33vw;
+}
+
+.news .poster img {
+    width: 100%;
+}
+
+.news .category {
+    margin-top: 2.42vw;
+}
+
+.news .category span {
+    color: #b4ad9e;
+    font-family: 'Ubuntu';
+    font-size: 1.17vw;
+    text-transform: uppercase;
+}
+
+.news h1 {
+    display: inline-block;
+    margin-top: 1.92vw;
+    margin-bottom: 2.75vw;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 2.5vw;
+}
+
+.news p {
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 1.17vw;
+    line-height: 1.92vw;
+}
+
+.news .more {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1.67vw 2.75vw;
+    border: solid 1px #626262;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 1.67vw;
+    text-decoration: none;
+}
